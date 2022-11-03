@@ -12,6 +12,10 @@
   grid-auto-flow: column;
   align-items: center;
   justify-content: left;
+  /* Had to be Added due to .left-menu class being used in leftMenu.css */
+  grid-column: 1;
+  grid-row: 1; 
+  padding: 0;
 }
   
 .header > .left-menu .menu-icon {
